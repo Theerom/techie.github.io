@@ -94,9 +94,7 @@
       background-color: #c62828; /* Christmas red */
       color: #fff;
       text-align: center;
-      padding: 10px;
-      bottom: 0;
-      width: 99%;
+      padding: 10px;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
      .menu-icon {
@@ -290,7 +288,12 @@ This constitution may be amended by a two-thirds vote of the members
   <footer style="background-color: grey;">
     <p>Your privacy and security are important to us. We never share your information with third parties. </p>
     </footer>
-    
+        <script>
+    function toggleMenu() {
+    var menu = document.getElementById('nav-menu');
+    menu.classList.toggle('show');
+}
+    </script>
   
 </body>
 </html>
